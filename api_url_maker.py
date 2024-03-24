@@ -53,7 +53,7 @@ class ApiUrlMaker:
         return {'featured': data_featured}
 
     def create_api_url(self):  # combine two dicts into one and transform to api url
-        base_url = 'https://www.insightpartners.com/wp-json/insight/v1/get-companies'
+        base_url = 'https://www.insightpartners.com/wp-json/insight/v1/get-companies'  # api url by which requests are made
         params_url = ''
 
         url_params = self._get_url_params()
